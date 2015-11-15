@@ -104,7 +104,7 @@ html {
 }
 body {
    width: 40.625em;
-   margin: 0 auto;
+   margin: 0 30%;
   
    }
 
@@ -122,8 +122,8 @@ body {
 .page-header {
   position: fixed;
   top: 0;
-  left: 22em;
-  width: 40.55em;
+  left: 30%;
+  width: 40em;
  }
 
 .main-nav {
