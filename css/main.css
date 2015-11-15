@@ -97,16 +97,64 @@ textarea {
 
 html {
   box-sizing: border-box;
+
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 body {
-    border: 1px solid red;
+   width: 40.625em;
+   margin: 0 auto;
+  
+   }
+
+.page-header {
+  background: #333;
+  padding: 1.25em;
+   color: #fff;
+}
+.page-header h2 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin: 0;
 }
 
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 22em;
+  width: 40.55em;
+ }
 
+.main-nav {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+img {
+    position: relative;
+    max-width: 100%;
+    z-index: -10;
+}
+h1 {
+  
+  text-align: center;
+  font-size: 4em;
+  line-height: .35em;
+  z-index: 10;
+  }
 
+.header-container h3 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2em;
+}
+
+p {
+    padding: 10px 20px;
+    font-size: 1.2em ;
+
+}
 
 
 
