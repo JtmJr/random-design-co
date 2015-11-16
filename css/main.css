@@ -94,29 +94,55 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+/* Global */
 html {
+    
+
   box-sizing: border-box;
 
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 body {
-   width: 40.625em;
+   border: 1px solid #9b9999;
+   height 100em;
+   width: 40em;
    margin: 0 30%;
-  
-   }
+   overflow: auto;
+   
+  }
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  line-height: .35em;
+  z-index: -100;
+  }
+
+p {
+    padding: 10px 20px;
+    font-size: 1.4em ;
+}
+
+/* Header & Nav */
+
 
 .page-header {
-  background: #333;
+  background: #000;
   padding: 1.25em;
-   color: #fff;
+  color: #fff;
+  z-index: 10;
+
 }
 .page-header h2 {
+    margin: 0;
+    padding: 0;
   font-size: 1.4em;
   text-transform: uppercase;
-  margin: 0;
+ 
 }
 
 .page-header {
@@ -128,35 +154,108 @@ body {
 
 .main-nav {
   position: absolute;
+  font-size: 2;
   top: 1em;
   right: 1em;
-}
-img {
+  }
+
+  /* Purple Header Backdrop */
+
+  /* Image */
+.purple-bg {
+    display: block;
     position: relative;
     max-width: 100%;
     z-index: -10;
+
 }
-h1 {
+ /* Section/Image Container */
+
+.purple {
+  padding: 0;
+  position: relative;
+  max-height: 30em; 
   
-  text-align: center;
-  font-size: 4em;
-  line-height: .35em;
-  z-index: 10;
   }
 
-.header-container h3 {
+/* The Button */
+.purple-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+   color: #fff; 
+}
+
+  .btn {
+  display: inline-block;
+  border: 0.125em solid white;
+  padding: .5em 1em;
+  text-decoration: none;
+  color: white;
+
+}
+
+.purple a:hover {
+    background: white; 
+    color: gray;
+}
+
+/* Main Text */
+
+.main {
+    border-bottom: 2px solid #9b9999; 
+    margin-top: 10%;
+   
+}
+.main p {
+
+}
+/* Photo Links/Display */
+
+.project-container {
+    position: relative;
+    overflow: auto;
+
+}
+
+.project-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.project-container img {
+    max-width: 19.95em;
+
+
+}
+
+.column {
+    position: relative;
+    width: 50%;
+    float: left;
+    border: 1px solid white;
+
+    }
+
+.column p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50);
     text-align: center;
-    padding-top: 50px;
-    font-size: 2em;
 }
 
-p {
-    padding: 10px 20px;
-    font-size: 1.2em ;
-
+h2 {
+    padding: 2px;
 }
 
 
+ footer {
+    clear: both;
+    text-align: center;
+}
 
 
 
