@@ -111,7 +111,6 @@ body {
    border: 1px solid #9b9999;
    width: 50%;
    margin: 0 20%;
-   padding: 0;
    height: 70%;
    overflow: auto;
   }
@@ -169,8 +168,7 @@ p {
 .purple-bg {
     display: block;
     position: relative;
-    max-width: 100%;
-    
+    max-width: 110%;
     z-index: -10;
 
 }
