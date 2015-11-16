@@ -112,8 +112,10 @@ body {
    width: 50%;
    margin: 0 20%;
    padding: 0;
+   height: 70%;
    overflow: auto;
   }
+
 
 h1 {
   text-align: center;
@@ -156,7 +158,7 @@ p {
 
 .main-nav {
   position: absolute;
-  font-size: 2;
+  font-size: 1.4em;
   top: 1em;
   right: 1em;
   }
@@ -192,8 +194,10 @@ p {
 }
 
   .btn {
+  font-size: 1.75em;
   display: inline-block;
   border: 0.125em solid white;
+  margin-top: 1.5em;
   padding: .5em 1em;
   text-decoration: none;
   color: white;
@@ -212,14 +216,16 @@ p {
     margin-top: 10%;
    
 }
-.main p {
-
+.main h2 {
+    padding-top: .125em;
+    font-size: 1.4em;
 }
 /* Photo Links/Display */
 
 .project-container {
     position: relative;
     overflow: auto;
+    padding: 2%;
 }
 
 .project-container a {
@@ -239,24 +245,25 @@ p {
     border: 1px solid white;
     }
 
-.column p {
+   .column h3 {
     padding: 0;
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-   
-    }
-
+   }
+h3 {
+    font-size: 1.4em
+}
 .content img {
     opacity: 0.3;
-    filter: alpha(opacity=30); 
+   
    }
 
 .content img:hover{
     opacity: 1.0;
-    filter: alpha(opacity=100); 
+    
     }
 
 .content a {
@@ -270,10 +277,10 @@ p {
 }
 
 footer {
-    border: 1px solid #9b9999;
-   
+    max-height: 5.5em;
+    border-top: 1px solid #9b9999;
+    border-bottom: 1px solid #9b9999;
     margin-top: 5%;
-    padding-bottom: -10%;
     clear: both;
     text-align: center;
 }
